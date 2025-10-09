@@ -106,10 +106,11 @@ section {
   border-radius: 10px;
   padding: 0.5rem;
   text-decoration: none;
-  color: green;
+  color: rgb(195, 53, 2);
   text-align: center;
 }
+
 .button-analysis:hover {
-  background-color: blue;
-  color: white;
+  background: linear-gradient(180deg, #b00000 0%, #750000 100%);
+  color: rgb(255, 255, 255);
 }
