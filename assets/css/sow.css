@@ -16,6 +16,7 @@ header {
   left: 5;
   width: 100%;
   z-index: 1000;
+  padding: 2rem;
 }
 nav ul {
   list-style: none;
@@ -50,6 +51,9 @@ nav ul li a:focus {
   height: 100vh;
   background: #222;
   color: #fff;
+}
+.cover-image-chungiyoo {
+  background-image: url("https://ik.imagekit.io/Akoqito/Girl.webp?updatedAt=1760385682864");
 }
 .title {
   overflow: hidden;
@@ -88,7 +92,7 @@ section {
   padding: 2rem;
 }
 .row {
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 /* Analysis Summary Styling */
@@ -102,15 +106,16 @@ section {
   }
 } */
 .button-analysis {
-  border: 4px solid black;
-  border-radius: 10px;
-  padding: 0.5rem;
+  border: 2px solid rgb(32, 5, 5);
+  border-radius: 100px;
+  padding: 1rem 1.5rem;
   text-decoration: none;
   color: rgb(195, 53, 2);
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .button-analysis:hover {
-  background: linear-gradient(180deg, #b00000 0%, #750000 100%);
+  background: linear-gradient(180deg, #b00000 0%, #d06969 100%);
   color: rgb(255, 255, 255);
 }
