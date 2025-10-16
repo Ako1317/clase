@@ -48,15 +48,24 @@ nav ul li a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   background: #222;
   color: #fff;
 }
 .cover-image-chungiyoo {
-  background-image: url("https://ik.imagekit.io/Akoqito/Girl.webp?updatedAt=1760385682864");
+  background-image: url("https://ik.imagekit.io/Akoqito/Captura%20de%20pantalla%202025-10-15%20141849.png");
 }
 .title {
   overflow: hidden;
+  margin-bottom: 1em; /* o el valor que quieras darle */
+  white-space: nowrap;
+  border-right: 0.15em solid currentColor;
+  animation: typing 3s steps(30, end) forwards,
+    blink-caret 0.75s step-end infinite;
+}
+.title {
+  overflow: hidden;
+  margin-bottom: 1em; /* o el valor que quieras darle */
   white-space: nowrap;
   border-right: 0.15em solid currentColor;
   animation: typing 3s steps(30, end) forwards,
@@ -72,6 +81,14 @@ nav ul li a:focus {
   padding: 7rem; /* espacio interno */
 }
 
+.subtitulo-personalizado {
+  color: rgb(187, 0, 0);
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  height: 0rem;
+  padding: 2rem; /* espacio interno */
+}
 @keyframes typing {
   from {
     width: 0;
@@ -118,4 +135,14 @@ section {
 .button-analysis:hover {
   background: linear-gradient(180deg, #b00000 0%, #d06969 100%);
   color: rgb(255, 255, 255);
+}
+
+.col-md-6 {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
