@@ -53,7 +53,13 @@ nav ul li a:focus {
   color: #fff;
 }
 .cover-image-chungiyoo {
-  background-image: url("https://ik.imagekit.io/Akoqito/Captura%20de%20pantalla%202025-10-15%20141849.png");
+  background-image: url("https://ik.imagekit.io/Akoqito/Captura%20de%20pantalla%202025-10-15%20141113.png");
+}
+.cover-image-gelato {
+  background-image: url("https://ik.imagekit.io/Akoqito/Captura%20de%20pantalla%202025-10-20%20134052.png?updatedAt=1760970524573");
+}
+.cover-image-kirifuda {
+  background-image: url("https://ik.imagekit.io/Akoqito/Captura%20de%20pantalla%202025-10-20%20160807.png");
 }
 .title {
   overflow: hidden;
@@ -62,6 +68,7 @@ nav ul li a:focus {
   border-right: 0.15em solid currentColor;
   animation: typing 3s steps(30, end) forwards,
     blink-caret 0.75s step-end infinite;
+  text-shadow: black 1px 1px 2px;
 }
 .title {
   overflow: hidden;
@@ -78,7 +85,7 @@ nav ul li a:focus {
   font-size: 30px;
   text-align: center;
   height: 0rem;
-  padding: 7rem; /* espacio interno */
+  padding: 3rem; /* espacio interno */
 }
 
 .subtitulo-personalizado {
@@ -110,6 +117,7 @@ section {
 }
 .row {
   padding: 2rem 0;
+  margin: 3rem 0;
 }
 
 /* Analysis Summary Styling */
@@ -144,5 +152,12 @@ section {
   display: block;
   margin: 20px auto;
   border-radius: 8px;
+  padding: 2rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.site-awwwards {
+  text-align: left;
+  margin: 0.5rem 0;
+  padding: 1rem;
 }
