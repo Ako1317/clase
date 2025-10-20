@@ -61,6 +61,9 @@ nav ul li a:focus {
 .cover-image-kirifuda {
   background-image: url("https://ik.imagekit.io/Akoqito/Captura%20de%20pantalla%202025-10-20%20160807.png");
 }
+.cover-image-gladeye {
+  background-image: url("https://ik.imagekit.io/Akoqito/img_0720.jpg?updatedAt=1760978785797");
+}
 .title {
   overflow: hidden;
   margin-bottom: 1em; /* o el valor que quieras darle */
