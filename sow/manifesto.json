@@ -1,0 +1,15 @@
+{
+  "short_name": "SOW",
+  "name": "Some Outstanding Websites",
+  "icons": [
+    {
+      "src": "/assets/img/pepe.webp",
+      "sizes": "1200x1200",
+      "type": "image/webp"
+    }
+  ],
+  "start_url": "/sow",
+  "display": "standalone",
+  "theme_color": "#222222",
+  "background_color": "white"
+}

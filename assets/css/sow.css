@@ -1,3 +1,7 @@
+/**
+ * (c) 2025 Anahí Kolofon - All rights reserved
+ */
+
 /* Header bar flex alignment */
 .header-bar {
   display: flex;
@@ -121,6 +125,9 @@ section {
 .row {
   padding: 2rem 0;
   margin: 3rem 0;
+}
+.copyright-row {
+  padding-top: 1rem;
 }
 
 /* Analysis Summary Styling */

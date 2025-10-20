@@ -3,3 +3,6 @@
 .env*
 _site/
 *.lock 
+
+node_modules
+dist
