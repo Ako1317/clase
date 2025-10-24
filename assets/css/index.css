@@ -2,7 +2,7 @@
  * (c) 2025 Anahí Kolofon - All rights reserved
  */
 
-/*@import url("http://meyerweb.com/eric/tools/css/reset/reset.css"); /* CSS Reset para compatibilidad entre navegadores */
+*@import url("http://meyerweb.com/eric/tools/css/reset/reset.css"); /* CSS Reset para compatibilidad entre navegadores */
 @import url("style.css"); /* Estilos principales */
 
 /* Fonts */
